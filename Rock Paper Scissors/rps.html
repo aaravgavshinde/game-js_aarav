@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <div id="middlediv">
+        <div id="upbox">
+            <div id="co">Choose One</div>
+            <button class="btn" onclick="rock()"><img class="img" src="Images/Rock.png" alt="rock"></button>
+            <button class="btn" onclick="paper()"><img class="img" src="Images/Paper.png" alt="paper"></button>
+            <button class="btn" onclick="scissors()"><img class="img" src="Images/Scissor.png" alt="scissors"></button>
+
+            <div id="playbox">
+                Result appears here
+            </div>
+        </div>
+        <div id="downbox">
+            <span class="miniheading">System: </span><span id="sysRes" class="mh"> 0 </span><br>
+            <span class="miniheading">You: </span><span id="youRes" class="mh"> 0 </span><br>
+            <span class="miniheading">Number of turns: </span><span id="turn" class="mh"> 0 </span>
+        </div>
+        <button id="nr" onclick="nextRound()">Next Round</button>
+    </div>
+    <div id="rr">
+        <div id="leftdiv">
+            <strong>How to play?</strong>
+            <ol type="1">
+                <li>Choose any one: rock, paper or scissors.</li>
+                <li>System also chooses one, randomly.</li>
+                <li>Paper beats Rock.</li>
+                <li>Scissors beats Paper.</li>
+                <li>Rock beats Scissors.</li>
+            </ol>
+        </div>
+        <div id="rightdiv">
+            Rounds you play appear here!
+        </div>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+
+</html>

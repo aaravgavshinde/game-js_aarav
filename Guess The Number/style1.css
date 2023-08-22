@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffe1fa;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#heading1{
+    font-size: 55px;
+    margin: 20px;
+    color: #a84848;
+    text-align: center;
+    text-shadow: 1px 1px 10px #eb8989;
+}
+
+#heading2{
+    font-size: 25px;
+    margin: 20px;
+}
+
+#heading3{
+    color: #871a49;
+    text-align: center;
+    font-size: 20px;
+}
+
+.Text1{
+    color: #ba4848;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.Text2{
+    color: #671e86;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 25px;
+}
+
+#inputbox{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#mainLabel{
+    /* color: #eb8989; */
+    color: black;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+#mainInput{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 15px;
+}
+
+#mainInput:hover{
+    border: 2px solid #ac6464;
+}
+
+#mainBtn{
+    border: 2px solid black;
+    color: black;
+    border-radius: 5px;
+    padding: 4px 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#mainBtn:hover{
+    color: #ac6464;
+    border: 2px solid #ac6464;
+}
+
+.btn{
+    font-size: 20px;
+    color: #eb8989;
+    border: 2px solid #eb8989;
+    border-radius: 10px;
+    padding: 8px 25px 8px 25px;
+    margin: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    border: 2px solid #ac6464;
+    color: #ac6464;
+}
+
+#closebox{
+    border: 1px solid #ac6464;
+    padding: 15px;
+    border-radius: 15px 15px 50px 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+    box-shadow: 0.5px 0.5px 10px #eb8989;
+}
+
+.linkbtn{
+    text-decoration: none;
+    color: #eb8989;
+}
+

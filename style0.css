@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-bg{
+    opacity: 0.15;
+    position: relative;
+    width: 49.8%;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    bottom: 85%;
+    left: 37%;
+    color: rgb(178, 16, 16);
+    font-size: 45px;
+    font-family: cursive;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    margin: 6px 10px;
+    border-radius: 8px;
+}
+
+.game{
+    margin: 20px;
+    background-color: rgb(143, 133, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgb(61, 52, 154);
+}
+
+.game:hover{
+    background-color: rgb(61, 52, 154);
+    cursor: pointer;
+}
+
+.gameHeading{
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 6px rgb(14, 14, 70);
+}
+
+a{
+    text-decoration: none;
+}
+
+.gameHeading:hover{
+    text-shadow: 0.2px 0.2px 7px rgb(209, 209, 255);
+}
+
+#gamebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    bottom: 45%;
+    left: 32.8%;
+}
